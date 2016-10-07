@@ -27,10 +27,10 @@ module Inverse_Matrix(Data_out0,Data_out1,Data_out2,Data_out3,Data_out4,Data_out
 
   /*
 		  matrix :==   1  8	-9	7	5	
-							0	1	0	4	4	
-							0	0	1	2	5	
-							0	0	0	1	-5	
-							0	0	0	0	1
+				0	1	0	4	4	
+				0	0	1	2	5	
+				0	0	0	1	-5	
+				0	0	0	0	1
 		  
 		  //Inverse of a Matrix:==
 		  
