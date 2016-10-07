@@ -1,0 +1,119 @@
+`timescale 1ns / 1ps
+
+////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer:
+//
+// Create Date:   19:58:37 10/07/2016
+// Design Name:   Inverse_Matrix
+// Module Name:   U:/college ict ppts/sem 3/LA/LA_Inverse/Inverse_Matrix_tb.v
+// Project Name:  LA_Inverse
+// Target Device:  
+// Tool versions:  
+// Description: 
+//					Author :== Tank Urvish Bhikhabhai
+//					Roll_No :== B.Tech(ICT-201501107)
+//					Subject :==Find a Inverse of a matrix 
+//					LA_Submission
+//
+//
+// Verilog Test Fixture created by ISE for module: Inverse_Matrix
+//
+// Dependencies:
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+////////////////////////////////////////////////////////////////////////////////
+
+module Inverse_Matrix_tb;
+
+	// Outputs
+	wire [63:0] Data_out0;
+	wire [63:0] Data_out1;
+	wire [63:0] Data_out2;
+	wire [63:0] Data_out3;
+	wire [63:0] Data_out4;
+	wire [63:0] Data_out5;
+	wire [63:0] Data_out6;
+	wire [63:0] Data_out7;
+	wire [63:0] Data_out8;
+	wire [63:0] Data_out9;
+	wire [63:0] Data_out10;
+	wire [63:0] Data_out11;
+	wire [63:0] Data_out12;
+	wire [63:0] Data_out13;
+	wire [63:0] Data_out14;
+	wire [63:0] Data_out15;
+	wire [63:0] Data_out16;
+	wire [63:0] Data_out17;
+	wire [63:0] Data_out18;
+	wire [63:0] Data_out19;
+	wire [63:0] Data_out20;
+	wire [63:0] Data_out21;
+	wire [63:0] Data_out22;
+	wire [63:0] Data_out23;
+	wire [63:0] Data_out24;
+
+	// Instantiate the Unit Under Test (UUT)
+	Inverse_Matrix uut (
+		.Data_out0(Data_out0), 
+		.Data_out1(Data_out1), 
+		.Data_out2(Data_out2), 
+		.Data_out3(Data_out3), 
+		.Data_out4(Data_out4), 
+		.Data_out5(Data_out5), 
+		.Data_out6(Data_out6), 
+		.Data_out7(Data_out7), 
+		.Data_out8(Data_out8), 
+		.Data_out9(Data_out9), 
+		.Data_out10(Data_out10), 
+		.Data_out11(Data_out11), 
+		.Data_out12(Data_out12), 
+		.Data_out13(Data_out13), 
+		.Data_out14(Data_out14), 
+		.Data_out15(Data_out15), 
+		.Data_out16(Data_out16), 
+		.Data_out17(Data_out17), 
+		.Data_out18(Data_out18), 
+		.Data_out19(Data_out19), 
+		.Data_out20(Data_out20), 
+		.Data_out21(Data_out21), 
+		.Data_out22(Data_out22), 
+		.Data_out23(Data_out23), 
+		.Data_out24(Data_out24)
+	);
+
+	initial begin
+		// Initialize Inputs
+
+		// Wait 100 ns for global reset to finish
+		#100;
+        
+		  /*
+		  matrix :==   1  8	-9	7	5	
+							0	1	0	4	4	
+							0	0	1	2	5	
+							0	0	0	1	-5	
+							0	0	0	0	1
+		  
+		  //Inverse of a Matrix:==
+		  
+					1	-8	9	7	17	
+					0	1	0	4	4	
+					0	0	1	2	5
+					0	0	0	1	-5	
+					0	0	0	0	1
+		  
+		  
+		  */
+		  
+		  
+		  
+		// Add stimulus here
+
+	end
+      
+endmodule
+
